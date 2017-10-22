@@ -38,6 +38,7 @@ mainframe.rowconfigure(0, weight=1)
 # mainframe 열과 행 넓이 1로 환경설정!
 
 feet = StringVar()
+#
 meters = StringVar()
 
 feet_entry = ttk.Entry(mainframe, width=7, textvariable=feet)
